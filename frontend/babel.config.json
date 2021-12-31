@@ -1,0 +1,14 @@
+{
+    "present":[
+        [
+            "@babel/present-env",
+            {
+                "targets":{
+                    "node": "16"
+                }
+            }
+        ],
+        "@babel/present-react"
+    ],
+    "plugins": ["@babel/plugin-proposal-class-properties"]
+}
